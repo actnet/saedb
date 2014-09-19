@@ -11,8 +11,7 @@ The *social network analysis* component is our major technical contribution. It 
 
 The *machine learning component* supports to incorporate various social based factors derived from the above social network analysis component into machine learning models.  
 
-Requirements
-============
+####Requirements
 
 We do regular developments with Linux and Mac OS X environments. Here's a list of our prerequists:
 
@@ -25,9 +24,7 @@ On Linux, it's easy to get those softwares and libraries with your distribution'
 
 On Mac OS X, please install the lastest XCode Command Line Tools and homebrew. Then you can install protobuf and zeromq with brew. We use libc++ by default on Mac OS X.
 
-Build
-=====
-
+####Build
 We recommend to build the project outside the source tree. To do this, please go to the root of this project and execute the following commands:
 
 	mkdir build
@@ -40,3 +37,7 @@ Then you can do some testing with:
 	ctest
 
 If something goes wrong with your build system, it's easy to delete the `build` directory and restart.
+
+####Acknowlegement
+The system was developed by Tsinghua University Knowledge Engineering Group (KEG), sponsored by Huawei Technologies Co., Ltd.
+
