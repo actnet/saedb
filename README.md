@@ -1,9 +1,9 @@
 SAE: Social Analytic Engine
 ============
-We present a Social Analytic Engine (SAE) for analyzing and mining large social network. Figure 1
+We present a Social Analytic Engine (SAE) for analyzing and mining large social network. The figure below
 shows the architecture of SAE. The cornerstone of the analytic engine is a distributed graph database, which provides storage for the networking data. On the top of the database, there are three core components: network integration, social network analysis, and distributed machine learning. 
 
-![](http://keg.cs.tsinghua.edu.cn/jietang/publications/KDD13-poster-SAE.pdf)
+![](https://github.com/actnet/saedb/blob/master/figs/SAE_framework.jpg)
 
 The *network integration* component supports to integrate entities extracted from different networks. For example, in academia, an author may have profile pages on Google Scholar, AMiner, and LinkedIn, but with different accounts. Automatically recognizing and integrating those profile pages can benefit many application such as expert finding and influence analysis.
 
