@@ -1,0 +1,2 @@
+/usr/bin/ar cr libgoogle-glog.a  CMakeFiles/google-glog.dir/src/logging.cc.o CMakeFiles/google-glog.dir/src/raw_logging.cc.o CMakeFiles/google-glog.dir/src/vlog_is_on.cc.o CMakeFiles/google-glog.dir/src/utilities.cc.o CMakeFiles/google-glog.dir/src/demangle.cc.o CMakeFiles/google-glog.dir/src/symbolize.cc.o CMakeFiles/google-glog.dir/src/signalhandler.cc.o
+/usr/bin/ranlib libgoogle-glog.a

@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11    CMakeFiles/indexing_test.dir/indexing_test.cpp.o  -o indexing_test -rdynamic libindexing.a ../testing/libtesting.a analyzer/libArnetAnalyzer.a 

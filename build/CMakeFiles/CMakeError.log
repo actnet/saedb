@@ -1,0 +1,160 @@
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec] Error 1
+make[1]: Leaving directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if files libunwind.h exist failed with the following output:
+Change Dir: /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Dx86_64=1 -Wall -Werror -Wno-unused-function -DLinux=1 -DMZ_HAS_CXX11=1 -DMZ_HAS_CXX0X=1     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o   -c /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: libunwind.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <libunwind.h>
+
+
+int main(){return 0;}
+
+Determining if files libunwind.h exist failed with the following output:
+Change Dir: /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Dx86_64=1 -Wall -Werror -Wno-unused-function -DLinux=1 -DMZ_HAS_CXX11=1 -DMZ_HAS_CXX0X=1     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o   -c /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: libunwind.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <libunwind.h>
+
+
+int main(){return 0;}
+
+Determining if files gflags/gflags.h exist failed with the following output:
+Change Dir: /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Dx86_64=1 -Wall -Werror -Wno-unused-function -DLinux=1 -DMZ_HAS_CXX11=1 -DMZ_HAS_CXX0X=1     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o   -c /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:0:
+/usr/include/gflags/gflags.h:81:18: fatal error: string: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <gflags/gflags.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/call.h exist failed with the following output:
+Change Dir: /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Dx86_64=1 -Wall -Werror -Wno-unused-function -DLinux=1 -DMZ_HAS_CXX11=1 -DMZ_HAS_CXX0X=1     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o   -c /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: sys/call.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <sys/call.h>
+
+
+int main(){return 0;}
+
+Determining if the function pthread_rwlock_rdlock exists failed with the following output:
+Change Dir: /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -Dx86_64=1 -Wall -Werror -Wno-unused-function -DLinux=1 -DMZ_HAS_CXX11=1 -DMZ_HAS_CXX0X=1  -DCHECK_FUNCTION_EXISTS=pthread_rwlock_rdlock   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc    -Dx86_64=1 -Wall -Werror -Wno-unused-function -DLinux=1 -DMZ_HAS_CXX11=1 -DMZ_HAS_CXX0X=1  -DCHECK_FUNCTION_EXISTS=pthread_rwlock_rdlock    CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic 
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_rwlock_rdlock'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function __builtin_expect exists failed with the following output:
+Change Dir: /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -Dx86_64=1 -Wall -Werror -Wno-unused-function -DLinux=1 -DMZ_HAS_CXX11=1 -DMZ_HAS_CXX0X=1  -DCHECK_FUNCTION_EXISTS=__builtin_expect   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: error: conflicting types for built-in function ‘__builtin_expect’ [-Werror]
+cc1: all warnings being treated as errors
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o] Error 1
+make[1]: Leaving directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function __sync_val_compare_and_swap exists failed with the following output:
+Change Dir: /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -Dx86_64=1 -Wall -Werror -Wno-unused-function -DLinux=1 -DMZ_HAS_CXX11=1 -DMZ_HAS_CXX0X=1  -DCHECK_FUNCTION_EXISTS=__sync_val_compare_and_swap   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: error: conflicting types for built-in function ‘__sync_val_compare_and_swap’ [-Werror]
+cc1: all warnings being treated as errors
+make[1]: Leaving directory `/home/yecao/newsae/sae/saedb/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+

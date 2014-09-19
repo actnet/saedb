@@ -1,0 +1,2 @@
+/usr/bin/ar cr libzrpc.a  CMakeFiles/zrpc.dir/zrpc.cpp.o CMakeFiles/zrpc.dir/rpc.pb.cc.o
+/usr/bin/ranlib libzrpc.a

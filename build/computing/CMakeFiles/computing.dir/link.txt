@@ -1,0 +1,2 @@
+/usr/bin/ar cr libcomputing.a  CMakeFiles/computing.dir/dumb.cpp.o
+/usr/bin/ranlib libcomputing.a

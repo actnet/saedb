@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yecao/newsae/sae/saedb/testing/testharness.cpp
+cstdio
+-
+iostream
+-
+string
+-
+vector
+-
+testharness.hpp
+/home/yecao/newsae/sae/saedb/testing/testharness.hpp
+
+/home/yecao/newsae/sae/saedb/testing/testharness.hpp
+cstdlib
+-
+iostream
+-
+sstream
+-
+string
+-
+

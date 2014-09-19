@@ -1,0 +1,2 @@
+/usr/bin/ar cr libtesting.a  CMakeFiles/testing.dir/testharness.cpp.o
+/usr/bin/ranlib libtesting.a

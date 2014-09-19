@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11    CMakeFiles/mmap_test.dir/mmap_test.cpp.o  -o mmap_test -rdynamic libmmap_file.a ../testing/libtesting.a 

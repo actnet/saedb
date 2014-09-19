@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yecao/newsae/sae/saedb/toolkit/RStarTree/RStarTree.hpp
+stdio.h
+-
+math.h
+-
+assert.h
+-
+stdlib.h
+-
+vector
+-
+queue
+-
+
+/home/yecao/newsae/sae/saedb/toolkit/RStarTree/RTreeTest.cpp
+stdio.h
+-
+iostream
+-
+fstream
+-
+string
+-
+RStarTree.hpp
+/home/yecao/newsae/sae/saedb/toolkit/RStarTree/RStarTree.hpp
+

@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11    CMakeFiles/lda_test.dir/env.cpp.o CMakeFiles/lda_test.dir/lda_test.cpp.o CMakeFiles/lda_test.dir/lda.cpp.o CMakeFiles/lda_test.dir/tokenize.cpp.o CMakeFiles/lda_test.dir/sort.cpp.o  -o lda_test -rdynamic ../../computing/libcomputing.a ../../storage/libmgraph.a ../../storage/libmmap_file.a ../../external/gflags/lib/libgflags.a 

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../testing/testharness.hpp
+cstdlib
+-
+iostream
+-
+sstream
+-
+string
+-
+
+/home/yecao/newsae/sae/saedb/storage/mmap_file.hpp
+cstring
+-
+
+/home/yecao/newsae/sae/saedb/storage/mmap_test.cpp
+cstdlib
+-
+iostream
+-
+string
+-
+testing/testharness.hpp
+/home/yecao/newsae/sae/saedb/storage/testing/testharness.hpp
+mmap_file.hpp
+/home/yecao/newsae/sae/saedb/storage/mmap_file.hpp
+

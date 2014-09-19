@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(activityimporter)
+LINK_DIRECTORIES("${CMAKE_CURRENT_SOURCE_DIR}/jsonlib")
+FILE(GLOB ACTIVITY_SOURCES "*.hpp" "*.cpp")
+add_executable(activityimporter ${ACTIVITY_SOURCES} )
+target_link_libraries(activityimporter computing libjsongcc.a)
