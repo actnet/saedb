@@ -41,3 +41,7 @@ If something goes wrong with your build system, it's easy to delete the `build` 
 ####Acknowlegement
 The system was developed by Tsinghua University Knowledge Engineering Group (KEG), sponsored by Huawei Technologies Co., Ltd.
 
+#### How to build your own system based on SAE
+Based on SAE, users are able to build their own social network analytic services. SAEDB project has provided a data process service, and also the RPC service for the front-end of the custom system. Here, we introduce the APIs used for the communication between SAEDB and the custom system. For more details, please refer to an example demo system we build through: [https://github.com/actnet/actnetdemo](ActivityNet).
+
+
