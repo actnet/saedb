@@ -18,7 +18,7 @@ We do regular developments with Linux and Mac OS X environments. Here's a list o
 	CMake 2.8+
 	g++ 4.8 or clang 3.3
 	protobuf 2.4+ (for RPC)
-	zeromq 3.2+ (for PRC)
+	zeromq 3.2+ (for RPC)
 
 On Linux, it's easy to get those softwares and libraries with your distribution's package manager.
 
