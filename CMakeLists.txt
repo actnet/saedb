@@ -43,8 +43,8 @@ add_subdirectory (testing)
 add_subdirectory (indexing)
 add_subdirectory (storage)
 add_subdirectory (serialization)
-add_subdirectory (zrpc)
+# add_subdirectory (zrpc)
 add_subdirectory (computing)
 
 # add toolkits
-add_all_subdirectories ("${CMAKE_CURRENT_SOURCE_DIR}/toolkit")
+add_subdirectory (toolkit)

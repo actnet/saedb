@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11    CMakeFiles/mgraph_test.dir/mgraph_test.cpp.o  -o mgraph_test -rdynamic libmgraph.a libmmap_file.a 

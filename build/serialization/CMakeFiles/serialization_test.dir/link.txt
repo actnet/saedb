@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11    CMakeFiles/serialization_test.dir/serialization_test.cpp.o  -o serialization_test -rdynamic ../testing/libtesting.a 

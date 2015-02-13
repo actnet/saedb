@@ -1,2 +1,0 @@
-/usr/bin/ar cr libmmap_file.a  CMakeFiles/mmap_file.dir/mmap_file_posix.cpp.o
-/usr/bin/ranlib libmmap_file.a

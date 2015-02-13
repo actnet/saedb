@@ -4,7 +4,6 @@
 #include <fstream>
 #include <sstream>
 #include <cstdio>
-#include <algorithm>
 
 #include "storage/mgraph.hpp"
 #include "computing/computing.hpp"
@@ -15,14 +14,14 @@
 
 using namespace std;
 
-class PageRank
+class DegreeCentrality
 {
 public:
-	PageRank() {}
-	~PageRank() {}
+	DegreeCentrality() {}
+	~DegreeCentrality() {}
 public:
 	string graphFile;
 public:
 	void setGraphFile(string graphfile);
-	int getPageRank(string resFile, double RESET_PROB, int itnum);
+	int getDegreeCentrality();
 };

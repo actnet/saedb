@@ -1,2 +1,0 @@
-/usr/bin/ar cr libArnetAnalyzer.a  CMakeFiles/ArnetAnalyzer.dir/StemFilter.cpp.o CMakeFiles/ArnetAnalyzer.dir/TokenUtil.cpp.o CMakeFiles/ArnetAnalyzer.dir/StopFilter.cpp.o
-/usr/bin/ranlib libArnetAnalyzer.a

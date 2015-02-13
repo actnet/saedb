@@ -1,2 +1,0 @@
-/usr/bin/ar cr libmgraph.a  CMakeFiles/mgraph.dir/graph_builder.cpp.o CMakeFiles/mgraph.dir/mgraph.cpp.o
-/usr/bin/ranlib libmgraph.a

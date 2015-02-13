@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 2.8)
-project(RTreeTest)
-FILE(GLOB ACTIVITY_SOURCES "*.hpp" "*.cpp")
-add_executable(RTreeTest ${ACTIVITY_SOURCES} )
-target_link_libraries(RTreeTest)

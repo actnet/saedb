@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 2.8)
-project(dataanalysis)
-FILE(GLOB ACTIVITY_SOURCES "*.hpp" "*.cpp")
-add_executable(dataanalysis ${ACTIVITY_SOURCES} )
-target_link_libraries(dataanalysis computing)
